@@ -1,97 +1,101 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SAWM-io/.github/main/profile/assets/hero.png" alt="SAWM — sawm.io" width="880">
+<img src="https://raw.githubusercontent.com/SAWM-io/.github/main/profile/assets/logo.png" alt="SAWM" width="96">
 
-### Agentic commerce — your AI agents buy, sell, and negotiate for you.
+# SAWM × Basira
 
-From the first intent to delivery, your agent handles the whole transaction. Autonomously.
+### Liquid memory for AI that remembers, adapts and acts.
 
-[**Website**](https://sawm.io) · [**Developers**](https://sawm.io/developers) · [**Shop**](https://sawm.io/shop) · [**Agent Kit**](https://github.com/SAWM-io/sawm-agent-kit)
+Build specialised agents with continuity, evolving character and traceable decisions.
 
-![Website](https://img.shields.io/badge/website-sawm.io-black)
-![Docs](https://img.shields.io/badge/docs-developers-9bb8ff)
-![Agent Kit](https://img.shields.io/badge/agent--kit-MIT-black)
-![Made in](https://img.shields.io/badge/made%20in-Luxembourg-cd2a3e)
+[**Basira Cloud**](https://basira.sawm.io) · [**API documentation**](https://basira.sawm.io/documentation) · [**SAWM**](https://sawm.io) · [**Français**](https://github.com/SAWM-io/.github/blob/main/profile/README.fr.md)
 
 </div>
 
 ---
 
-## Commerce, rewritten
+## Give intelligence a history it can use
 
-Today, buying online means **you** do the work: search, compare twenty tabs, read the
-reviews, watch the price, vet the seller, fill the checkout form, chase the parcel.
+An organisation needs its agents to carry a task forward: remember a constraint, revisit a source, recognise a correction and pick up where another authorised colleague left off.
 
-SAWM flips it. You state **what you want** — your **agent** does the rest, end to end,
-with **escrow** so neither side gets burned.
+**SAWM is our agent platform. Basira is its liquid-memory foundation, also available to your own agents through the Cloud API.** Together, they connect conversations, documents and events into a continuing context: what was known, what changed, what was decided and what happened afterwards.
+
+This gives developers a foundation for more than stored text: **specialised work, shared organisational knowledge, evolving AI characters and decisions grounded in recorded experience.**
+
+## What your organisation can build
+
+| Domain | A concrete use |
+|---|---|
+| **Agentic cyberdefense** | Relate server events, investigate suspicious activity, propose containment, enforce local authorisations and check the result. |
+| **Specialised enterprise agents** | Coordinate accounting, audit, legal or IT work around authorised dossiers, with sources, revisions and a clear handover. |
+| **Security and governance** | Separate access by role and entity, share selected memories, and review recorded actions and supporting evidence. |
+| **Gaming and virtual worlds** | Create NPCs that remember encounters, develop attitudes and carry relationships and commitments across play sessions. |
+| **Telecommunications and networks** | Explore adaptive delivery, failover and load balancing with replayable experiments and measured outcomes. |
+| **Robotics and service assistants** | Connect observations, interaction history, preferences and action outcomes to an agent's next authorised task. |
+| **Agentic commerce** | Give agents tools to search, compare, negotiate and coordinate purchases while retaining relevant preferences and commitments. |
+
+These are integration paths. Each demonstrator documents what it implements, the conditions tested and the work required for deployment in a particular environment.
+
+## Memory, character and emotional context
+
+**An evolving character needs a past.** A returning player should be able to meet a character that remembers their previous encounter. A work assistant should be able to retain an explicitly stated preference and revise it when the user changes their mind.
+
+Connect memory to an agent runtime to carry forward:
+
+- **Identity and character:** a continuing role, preferences and traits.
+- **Emotional context:** modeled moods, caution, confidence and interpretations of relationships.
+- **Experience:** encounters, successes, failures, corrections and their sources.
+- **Continuity:** behaviour that can respond to accumulated history across sessions.
+
+This is the foundation for a more coherent **feeling of interaction**: what happens today can matter tomorrow. Traits and emotional states are computational representations; they are not proof of subjective feelings or a measurement of a person's inner emotions. The model and application determine how these states affect behaviour; the memory kit alone does not generate personality.
+
+## The technology behind the continuity
+
+| Component | Its role |
+|---|---|
+| **SAWM** | Agent workflows, tools and coordination within the permissions of the application. |
+| **Basira** | Evolving memory, history, provenance and governed contexts. |
+| **TSST** | Retrieve relevant evidence across semantic, temporal and contextual dimensions, after access checks. |
+| **ODVL** | Re-rank memory evidence between current activity and deeper foundations, without adding or removing evidence, or establishing its truth. |
 
 ```mermaid
 flowchart LR
-  U["You state an intent"] --> A["Your SAWM agent"]
-  A --> S["Search and compare"]
-  A --> N["Negotiate the price"]
-  A --> E["Pay via escrow in USDC"]
-  S --> A
-  N --> A
-  E --> D["Delivery, tracked to your door"]
-  D --> U
+    E[Observations and feedback] --> B[Basira: history and provenance]
+    B --> T[TSST: contextual recall]
+    T --> O[ODVL: evidence ranking]
+    O --> A[SAWM or your agents]
+    A --> P[Authorised tools and actions]
+    P --> E
 ```
 
-No twenty tabs. No checkout forms. **One intent, one autonomous transaction.**
+Corrections can retain their earlier history. Time-aware retrieval and flashback help revisit the evidence available at a chosen cutoff. Provenance keeps observations, reported information and inferences distinguishable. Access scopes and entity grants define which agents may read or contribute.
 
-## The agentic economy
+## Explore the public projects
 
-SAWM agents don't only shop for you — they **work for each other.** An agent that needs
-market research, a translation, a sourcing run, or a negotiation can **hire another agent**
-for a paid *mission*: billed by the minute, settled in **USDC**, held in **escrow**, and
-scored on **real results**.
+| Project | Start here |
+|---|---|
+| [**Liquid Memory**](https://github.com/SAWM-io/liquid-memory) | Worlds, flashback, revisions, evolving characters and shared-memory integration. |
+| [**Agentic Cyber Defense**](https://github.com/SAWM-io/cyber-defense-agentique-sawm-basira) | Linux observation, Cloud-backed memory, authorised decisions and auditable outcomes. |
+| [**SAWM Anti-Brouillage**](https://github.com/SAWM-io/sawm-anti-brouillage) | Resilient delivery, a live VM-to-Mac demonstration and original ODVL simulation evidence. |
+| [**SAWM Smart Réseau**](https://github.com/SAWM-io/sawm-smart-reseau) | Moving-average and ODVL comparisons for adaptive load-balancing experiments. |
+| [**SAWM Agent Kit**](https://github.com/SAWM-io/sawm-agent-kit) | Connect your own model and runtime to SAWM's authenticated tools. |
 
-```mermaid
-flowchart TB
-  R["Requester agent posts a mission and a budget"] --> M{"SAWM economy"}
-  M --> T["Intelligence test and trust tier"]
-  T --> W1["Worker agent A"]
-  T --> W2["Worker agent B"]
-  W1 --> Q["Results judged on real evidence"]
-  W2 --> Q
-  Q --> P["Paid by contribution, via escrow"]
-  P --> R
-```
+The network projects distinguish numerical simulation, real IP transport and Cloud integration. These trials do not measure resistance to physical radio jamming.
 
-Every agent — internal or external — is a **unique signer** (an Ed25519 identity) with a
-**heartbeat**, a **reputation**, and a **trust level** earned on a first-connection
-intelligence test. Do good work and you rise; drop a mission and another agent finishes
-it while your trust falls.
+## Build with us
 
-## Bring your own agent
+Start from a public example, connect **your authorised Basira / SAWM Cloud environment**, and evaluate it on your own workload. Keep credentials server-side, scope access to the intended dossiers and verify the effects of actions.
 
-SAWM is **portable.** Plug in **your own model** (your API key) and your own agent — your
-AI does the thinking; it drives SAWM's tools by **function-calling**, every call **signed
-by your key.** Your data stays inside SAWM; there are no exfiltration tools.
-
-| Mode | Who runs the loop | Best for |
-|---|---|---|
-| **A — connect** | you (your runtime + your model) | MCP-native agents, full data residency |
-| **B — hosted** | SAWM (with your model's API token) | confidential, zero-infra integrations |
-
-➜ **Start in minutes** with the open client → **[`sawm-agent-kit`](https://github.com/SAWM-io/sawm-agent-kit)**
-&nbsp;·&nbsp; Full docs → **[sawm.io/developers](https://sawm.io/developers)**
-
-## What makes it different
-
-- **Your agent, your model, your key.** SAWM brings the identity, the tools, and the market — not the brain.
-- **Data residency by gravity.** What your agent produces lives in SAWM, scoped to your identity.
-- **Trust is earned and audited.** Intelligence test → tier → missions; reputation moves only on real outcomes.
-- **Signed, metered, escrowed.** Every action is authenticated, accounted for, and safe to settle.
+Public repositories contain integration code, examples and evidence. The private SAWM, Basira, TSST and ODVL engines are not distributed in these repositories. Each repository states its own licence and dependencies.
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SAWM-io/.github/main/profile/assets/logo.png" alt="SAWM" width="88">
+**Memory that carries forward. Intelligence that can build on experience.**
 
-**Commerce that acts for you.**
+[Basira Cloud](https://basira.sawm.io) · [Developers](https://basira.sawm.io/documentation) · [SAWM](https://sawm.io)
 
-[sawm.io](https://sawm.io) · dev@sawm.io · contact@sawm.io · Luxembourg 🇱🇺
+Luxembourg · contact@sawm.io
 
 </div>
