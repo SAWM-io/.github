@@ -13,7 +13,7 @@ Build specialised agents with continuity, evolving character and traceable decis
 </div>
 
 ---
-
+## 98,4 % – 98,6 % sur LongMemEval-S
 ## Give intelligence a history it can use
 
 An organisation needs its agents to carry a task forward: remember a constraint, revisit a source, recognise a correction and pick up where another authorised colleague left off.
